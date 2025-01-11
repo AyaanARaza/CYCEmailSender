@@ -1,0 +1,74 @@
+.topheader {
+    background-color:  #333333;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.information {
+    margin-left: 40px;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #6c6a6a;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: rgb(224, 221, 221)
+}
+
+p{
+    font-size: 16px;
+}
+.card div{
+    color:black;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.card p{
+    text-align: left;
+    padding-left: 10px;
+}
+
+#template {
+    width: 70%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: box-shadow 0.3s ease;
+    color: black;
+}
+
+#template:focus {
+    box-shadow: 2px 2px 10px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+.information h1{
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+}
+.information marquee h1 {
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: normal;
+}
+
+#bulk{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+}
